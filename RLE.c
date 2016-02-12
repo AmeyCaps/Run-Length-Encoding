@@ -14,9 +14,9 @@ int main(void)
                   continue;                                  
              }
              for(k=1;string[i]==string[i+1];k++,i++);        
-                    sprintf(&ecoded_message[i==0?0:strlen(encoded_message)],"%d%c",k,string[i]);                                  
+                    sprintf(&encoded_message[i==0?0:strlen(encoded_message)],"%d%c",k,string[i]);                                  
            }
-     printf("%s",string2);                                    
+     printf("%s",encoded_message);                                    
         
     return 0;
 
