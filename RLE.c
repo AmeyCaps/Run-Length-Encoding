@@ -7,6 +7,7 @@ int main(void)
     char string[50];                                          
     char encoded_message[100]="";                             
     int i=0,k;
+    printf("Enter string :");
     scanf("%49[^\n]",string);                                 
           for(;string[i];i++){                               
               if(string[i]==' '){                            
